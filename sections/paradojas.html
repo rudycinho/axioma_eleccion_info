@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paradojas que Sacudieron las Matemáticas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header>
+    <h1>Axioma de Elección</h1>
+  </header>
+
+  <main>
+    <nav>
+        <h1>Axioma de Elección</h1>
+        <ul>
+          <li><a class="nav-link" href="../index.html">1. Introducción</a></li>
+          <li><a class="nav-link" href="cantor.html">2. Georg Cantor</a></li>
+          <li><a class="nav-link" href="wellordering.html">3. Ordenar lo Inordenable</a></li>
+          <li><a class="nav-link" href="zermelo.html">4. Ernst Zermelo</a></li>
+          <li><a class="nav-link active" href="paradojas.html">5. Paradojas</a></li>
+          <li><a class="nav-link" href="crisis.html">6. Crisis</a></li>
+          <li><a class="nav-link" href="legado.html">7. Legado</a></li>
+          <li><a class="nav-link" href="conclusion.html">8. Conclusión</a></li>
+        </ul>
+      </nav>
+
+    <section id="paradojas">
+        <h2>5. Paradojas que Sacudieron las Matemáticas</h2>
+        <p>El Axioma de Elección, aunque poderoso y útil en muchos contextos, también da lugar a paradojas matemáticas que desafían la intuición. Estas paradojas han sido un tema de gran debate, ya que muestran que la "elección" de elementos de conjuntos infinitos puede tener consecuencias sorprendentes y no siempre deseables. Algunas de las paradojas más conocidas incluyen la Paradoja de Banach-Tarski y la construcción del conjunto de Vitali.</p>
+      
+        <h3>5.1 El Conjunto de Vitali: Una Longitud Sin Medida</h3>
+        <p>Una de las primeras paradojas derivadas del Axioma de Elección es la construcción del conjunto de Vitali. Este conjunto se forma tomando puntos de un intervalo real [0,1] que son equivalentes bajo una relación de equivalencia definida por traslaciones. El conjunto de Vitali tiene la propiedad de que no puede ser medido, ya que su "medida" es indefinida dentro del marco estándar de la teoría de la medida.</p>
+        <p>Esto se debe a que, bajo el Axioma de Elección, podemos seleccionar un subconjunto de puntos en una forma que no tiene una medida coherente, a pesar de que intuitivamente parece que podría tenerla. Esta propiedad ha sido fundamental para desarrollar ideas en teoría de la medida y análisis, pero también ha generado un rechazo entre algunos matemáticos que cuestionan sus implicaciones filosóficas.</p>
+      
+        <h3>5.2 La Paradoja de Banach-Tarski: Duplicar Esferas</h3>
+        <p>La Paradoja de Banach-Tarski es quizás la paradoja más famosa derivada del Axioma de Elección. En términos simples, esta paradoja afirma que es posible dividir una esfera tridimensional en un número finito de piezas disjuntas y, mediante rotaciones y traslaciones, recomponer dos esferas del mismo tamaño que la original. Esto va en contra de nuestra intuición física, que nos dice que no podemos crear algo de la nada.</p>
+        <p>El proceso utilizado para "duplicar" la esfera es puramente abstracto y se apoya en el Axioma de Elección para seleccionar puntos de manera que no es constructiva. Como resultado, esta paradoja ha sido uno de los puntos de fricción más importantes en las discusiones sobre la validez del Axioma de Elección en la teoría de conjuntos.</p>
+      
+        <h3>5.3 Conjuntos No Medibles y sus Implicaciones</h3>
+        <p>El Axioma de Elección también da lugar a la existencia de conjuntos no medibles en espacios de dimensión superior. Estos conjuntos no pueden ser medidos de acuerdo con la teoría clásica de la medida de Lebesgue, que establece cómo calcular el "tamaño" o "volumen" de un conjunto en el espacio euclidiano.</p>
+        <p>Un ejemplo conocido es el conjunto de Vitali, que mencionamos previamente. Su existencia es una consecuencia directa del Axioma de Elección y muestra que existen conjuntos con propiedades que parecen contradecir nuestras nociones de medida y volumen, lo que genera aún más controversia sobre la naturaleza y la aceptación del axioma.</p>
+      
+        <h3>5.4 La Controversia Filosófica: ¿Es el Axioma de Elección Realmente "Real"?</h3>
+        <p>La existencia de estas paradojas ha generado una gran controversia filosófica en torno al Axioma de Elección. Algunos matemáticos sostienen que el axioma es indispensable para el desarrollo de muchas áreas de las matemáticas, mientras que otros argumentan que las paradojas que genera son una prueba de que el axioma no tiene sentido en una teoría matemática bien fundamentada.</p>
+        <p>Los críticos del Axioma de Elección sugieren que la creación de conjuntos no medibles y la capacidad de duplicar esferas son fenómenos que parecen más propios de la ciencia ficción que de una teoría matemática sólida. Sin embargo, la mayoría de los matemáticos han aceptado el axioma como una herramienta necesaria, aunque sus implicaciones no constructivas sigan siendo un tema de debate.</p>
+      
+        <img src="Banach-Tarski_Paradox.svg" alt="Paradoja de Banach-Tarski" style="max-width: 100%; border-radius: 8px; margin-top: 20px;">
+      </section>
+
+  </main>
+
+  <script src="../app.js"></script>
+</body>
+</html>
